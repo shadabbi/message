@@ -1,0 +1,24 @@
+.chat {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid lightgray;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #3e93fd;
+    color: #fff;
+  }
+
+  .info {
+    position: relative;
+    margin-left: 15px;
+    width: 100%;
+
+    small {
+      position: absolute;
+      right: 0;
+      top: 5px;
+    }
+  }
+}
